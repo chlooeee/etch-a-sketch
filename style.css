@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(16,auto);
+    width: 500px;
+    height: 600px;
+    border: 3px salmon;
+    align-items: left;
+}
+
+.squares{
+    border: 1px solid salmon;
+}
+.hover{
+    background-color: grey;
+}
+
